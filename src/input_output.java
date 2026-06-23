@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class input_output {
         public static void main(String[] args){
 
-void main() {
 //        System.out.println("HELLO WORLD");
 //        System.out.print("hello world");
 //        System.out.println("Hello World");
@@ -13,7 +12,7 @@ void main() {
 //        System.out.println(input.nextLine());
 //        System.out.println(input.next());
 
-          // Primitive Data types:
+                        // Primitive Data types:
 //        int roll_no = 64;
 //        char letter = 'r';
 //        float marks = 98.67f;
@@ -35,19 +34,19 @@ void main() {
 //          float marks = input.nextFloat();
 //          System.out.println(marks);
 
-        // SUM OF TWO NUMBERS:
+                        // SUM OF TWO NUMBERS:
 //        Scanner input = new Scanner(System.in);
 //        int num1 = input.nextInt();
 //        int num2 = input.nextInt();
 //        int sum = num1 + num2;
 //        System.out.println("Sum = " + sum);
 
-        // TYPE CASTING AND TYPE CONVERSION:
+                        // TYPE CASTING AND TYPE CONVERSION:
 
 //        int num = (int)(67.56f);
 //        System.out.println(num);
 
-        // automatic type promotion in expressions
+                        // automatic type promotion in expressions
 //        int a = 257;
 //        byte b = (byte)(a); // 257%256 = 1, maximum a byte can store is 256
 //        System.out.println(b);
@@ -73,7 +72,7 @@ void main() {
 //          System.out.println(result);
 
 
-          // WHILE LOOP
+                        // WHILE LOOP
 
 //          int count = 1;
 //          while(count != 5){
@@ -81,20 +80,22 @@ void main() {
 //                  count++;
 //          }
 
-          // FOR LOOP
+                        // FOR LOOP
 
 //        for(int count = 1; count!= 5; count++){
 //                System.out.println(count);
 //        }
 
-        // CONVERT CELSIUS TO FAHRENHEIT:
+                // CONVERT CELSIUS TO FAHRENHEIT:
 
-        Scanner input = new Scanner(System.in);
-        System.out.print("Please enter temp in C: ");
-        float tempC = input.nextFloat();
-        float tempF = (tempC * 9/5) + 32;
-        System.out.println(tempF);
+                Scanner input = new Scanner(System.in);
+                System.out.print("Please enter temp in C: ");
+                float tempC = input.nextFloat();
+                float tempF = (tempC * 9/5) + 32;
+                System.out.println(tempF);
+        }
 }
+
 
 
 
