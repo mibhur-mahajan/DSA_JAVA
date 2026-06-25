@@ -112,9 +112,84 @@ public class functions_methods {
 //              System.out.println(Arrays.toString(v));
 //          }
 
-            public static void main(String[] args) {
-                multiple(2, 3, "Kunal", "Rahul", "Aman" );
-            }
+//            public static void main(String[] args) {
+//                multiple(2, 3, "Kunal", "Rahul", "Aman" );
+//            }
+//
+//            static void multiple(int a, int b, String ...v) {
+//                System.out.println(Arrays.toString(v));
+//            }
+
+              // Method Overloading:
+
+//              public static void main(String[] args) {
+//                  fun(67);
+//                  fun("Kunal Kushwaha");
+//              }
+//
+//              static void fun(int a) {
+//                  System.out.println(a);
+//              }
+//
+//              static void fun(String name) {
+//                  System.out.println(name);
+//              }
+
+                // Ques: Check Prime or not:
+
+//                public static void main(String[] args) {
+//                    Scanner in = new Scanner(System.in);
+//                    int n = in.nextInt();
+//                    boolean ans = isPrime(n);
+//                    System.out.println(ans);
+//                }
+//
+//                static boolean isPrime(int n) {
+//                    if (n<=1) {
+//                        return false;
+//                    }
+//                    int c = 2;
+//                    while (c * c <= n) {
+//                        if (n % c == 0) {
+//                            return false;
+//                        }
+//                        c++;
+//                    }
+//                    if (c * c > n) {
+//                        return true;
+//                    }
+//                    return false;
+//                }
+
+                  // Ques: Check Armstrong Number:
+
+//                  public static void main(String[] args) {
+//                      Scanner in = new Scanner(System.in);
+//                      int n = in.nextInt();
+//                      System.out.println(isArmstrong(n));
+//                  }
+//
+//                  static boolean isArmstrong(int n) {
+//                      int original = n;
+//                      int sum = 0;
+//                      while (n > 0) {
+//                          int rem = n % 10;
+//                          n = n / 10;
+//                          sum = sum + rem*rem*rem;
+//                      }
+//                      return sum == original;
+//                  }
+
+                    // Ques: Print all the 3 digit armstrong number:
+
+                    public static void main(String[] args) {
+                        Scanner in  = new Scanner(System.in);
+                        for (int i = 100; i < 1000; i++) {
+                            if (isArmstrong(i)) {
+                                System.out.print(i + " ");
+                            }
+                        }
+                    }
 
             static void multiple(int a, int b, String ...v) {
                 System.out.println(Arrays.toString(v));
