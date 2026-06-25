@@ -191,8 +191,15 @@ public class functions_methods {
                         }
                     }
 
-            static void multiple(int a, int b, String ...v) {
-                System.out.println(Arrays.toString(v));
-            }
+                    static boolean isArmstrong(int n) {
+                        int original = n;
+                        int sum = 0;
+                        while (n > 0) {
+                            int rem = n % 10;
+                            n = n / 10;
+                            sum += rem*rem*rem;
+                        }
+                        return (sum == original);
+                    }
 
 }
