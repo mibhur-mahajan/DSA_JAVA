@@ -6,6 +6,7 @@ public class Arrays_ArrayList {
     public static void main(String[] args) {
         // syntax
         // datatype[] variable_name = new datatype[size];
+        // array of primitives:
         // store 5 roll numbers:
 //        int[] rnos = new int[5];
 //        // or directly
