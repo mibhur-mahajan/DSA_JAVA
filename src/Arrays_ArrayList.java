@@ -117,16 +117,51 @@ public class Arrays_ArrayList {
 
         // Column not fixed:
 
-        int[][] arr = {
-                {1, 2, 3, 4},
-                {5, 6},
-                {7, 8, 9}
-        };
-        for (int row = 0; row < arr.length; row++) {
-            for (int col = 0; col < arr[row].length; col++) {
-                System.out.print(arr[row][col] + " ");
-            }
-            System.out.println();
+//        int[][] arr = {
+//                {1, 2, 3, 4},
+//                {5, 6},
+//                {7, 8, 9}
+//        };
+//        for (int row = 0; row < arr.length; row++) {
+//            for (int col = 0; col < arr[row].length; col++) {
+//                System.out.print(arr[row][col] + " ");
+//            }
+//            System.out.println();
+//        }
+
+        // ArrayList:
+
+        // Syntax
+//        ArrayList<Integer> list = new ArrayList<>(10);
+//        list.add(67);
+//        list.add(78);
+//        list.add(234);
+//        list.add(345);
+//        list.add(43);
+//        System.out.println(list.contains(234));
+//        System.out.println(list);
+//        list.set(0,99);
+//        list.remove(2);
+//        System.out.println(list);
+
+        // Taking input in an ArrayList:
+
+//        ArrayList<Integer> list = new ArrayList<>(5);
+//        Scanner in = new Scanner(System.in);
+//        for(int i = 0; i < 10; i++) {
+//            list.add(in.nextInt());
+//        }
+//        System.out.println(list);
+
+        // get item at any index:
+
+        ArrayList<Integer> list = new ArrayList<>(5);
+        Scanner in = new Scanner(System.in);
+        for(int i = 0; i < 5; i++) {
+            list.add(in.nextInt());
+        }
+        for(int i = 0; i < 5; i++) {
+            System.out.println(list.get(i)); // pass index here, list[index] syntax will not work here
         }
 
     }
