@@ -163,6 +163,7 @@ public class Arrays_ArrayList {
         for(int i = 0; i < 5; i++) {
             System.out.println(list.get(i)); // pass index here, list[index] syntax will not work here
         }
+        System.out.println(list);
 
     }
 }
