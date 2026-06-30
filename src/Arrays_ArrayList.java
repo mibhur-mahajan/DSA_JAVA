@@ -225,5 +225,10 @@ public class Arrays_ArrayList {
 //        return maxVal;
 //    }
 
+        // Ques 4: Reversing an Array:
+
+        int[] arr = {1, 3, 23, 9, 18};
+        reverse(arr);
+        System.out.println(Arrays.toString(arr));
     }
 }
