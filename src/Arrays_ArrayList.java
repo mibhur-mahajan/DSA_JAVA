@@ -155,15 +155,75 @@ public class Arrays_ArrayList {
 
         // get item at any index:
 
-        ArrayList<Integer> list = new ArrayList<>(5);
-        Scanner in = new Scanner(System.in);
-        for(int i = 0; i < 5; i++) {
-            list.add(in.nextInt());
-        }
-        for(int i = 0; i < 5; i++) {
-            System.out.println(list.get(i)); // pass index here, list[index] syntax will not work here
-        }
-        System.out.println(list);
+//        ArrayList<Integer> list = new ArrayList<>(5);
+//        Scanner in = new Scanner(System.in);
+//        for(int i = 0; i < 5; i++) {
+//            list.add(in.nextInt());
+//        }
+//        for(int i = 0; i < 5; i++) {
+//            System.out.println(list.get(i)); // pass index here, list[index] syntax will not work here
+//        }
+//        System.out.println(list);
+
+        // Multidimensional ArrayList:
+//        Scanner in = new Scanner(System.in);
+//        ArrayList<ArrayList<Integer>> list = new ArrayList<>();
+//        // initialisation
+//        for(int i = 0; i < 3; i++) {
+//            list.add(new ArrayList<>());
+//        }
+//        // add elements
+//        for(int i = 0; i < 3; i++) {
+//            for(int j = 0; j < 3; j++) {
+//                list.get(i).add(in.nextInt());
+//            }
+//        }
+//        System.out.println(list);
+
+        // Ques 1: Swapping values in an array:
+
+//        int[] arr = {1, 3, 23, 9, 18};
+//        swap(arr, 1, 3);
+//        System.out.println(Arrays.toString(arr));
+//
+//    }
+//    static void swap(int[] arr, int index1, int index2) {
+//        int temp = arr[index1];
+//        arr[index1] = arr[index2];
+//        arr[index2] = temp;
+//    }
+
+        // Ques 2: Maximum value of an array:
+
+//        int[] arr = {1, 3, 23, 9, 18};
+//        System.out.println(max(arr));
+//    }
+//
+//    // imagine that arr is not empty
+//    static int max(int[] arr) {
+//        int maxVal = arr[0];
+//        for (int i = 1; i < arr.length; i++) {
+//            if (arr[i] > maxVal) {
+//                maxVal = arr[i];
+//            }
+//        }
+//        return maxVal;
+//    }
+
+        // Ques 3: Maximum value of an array within a range:
+
+//        int[] arr = {1, 3, 23, 9, 18};
+//        System.out.println(maxRange(arr, 1, 3));
+//    }
+//    static int maxRange(int[] arr, int start, int end) {
+//        int maxVal = arr[start];
+//        for(int i = start; i<=end; i++) {
+//            if(arr[i] > maxVal) {
+//                maxVal = arr[i];
+//            }
+//        }
+//        return maxVal;
+//    }
 
     }
 }
