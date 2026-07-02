@@ -115,19 +115,27 @@ public class Linear_Search {
 
         // Ques 4: Searching in 2D Array:
 
-    // search in the array: return the index if item found
-    // otherwise if item not found return -1
-    static int linearSearch(int[] arr, int target) {
-        if (arr.length == 0) {
-            return -1;
-        }
-        // run for loop
-        for (int index = 0; index < arr.length; index++) {
-            // check for element at every index if it = targer
-            int element = arr[index];
-            if (element == target) {
-                return element;
-            }
+//        int[][] arr = {
+//                {23, 4, 1},
+//                {18, 12, 3, 9},
+//                {78, 99, 34, 56},
+//                {18, 12}
+//        };
+//        int target = 34;
+//        int[] ans = search(arr, target); //format of return value{row,col}
+//        System.out.println(Arrays.toString(ans));
+//    }
+//
+//    static int[] search(int[][] arr, int target) {
+//        for (int row = 0; row < arr.length; row++) {
+//            for (int col = 0; col < arr[row].length; col++) {
+//                if (arr[row][col] == target) {
+//                    return new int[]{row, col};
+//                }
+//            }
+//        }
+//        return new int[]{-1, -1};
+//    }
 
         }
         // this line will execute if none of the return statements executes
