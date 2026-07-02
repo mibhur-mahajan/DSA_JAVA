@@ -137,9 +137,29 @@ public class Linear_Search {
 //        return new int[]{-1, -1};
 //    }
 
-        }
-        // this line will execute if none of the return statements executes
-        // hence the target not found
-        return -1;
-    }
-}
+        // Ques 5: Maximum value in 2D array:
+
+//        int[][] arr = {
+//                {23, 4, 1},
+//                {18, 12, 3, 9},
+//                {78, 99, 34, 56},
+//                {18, 12}
+//        };
+//        int ans = max(arr);
+//        System.out.println((ans));
+//        System.out.println(Integer.MIN_VALUE);
+//    }
+//
+//    static int max(int[][] arr) {
+//        int max = Integer.MIN_VALUE;
+//        for (int row = 0; row < arr.length; row++) {
+//            for (int col = 0; col < arr[row].length; col++) {
+//                int element = arr[row][col];
+//                if (element > max) {
+//                    max = element;
+//                }
+//            }
+//        }
+//        return max;
+//    }
+//}
