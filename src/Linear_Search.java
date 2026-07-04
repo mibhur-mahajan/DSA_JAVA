@@ -139,16 +139,98 @@ public class Linear_Search {
 
         // Ques 5: Maximum value in 2D array:
 
-        int[][] arr = {
-                {23, 4, 1},
-                {18, 12, 3, 9},
-                {78, 99, 34, 56},
-                {18, 12}
-        };
-        int ans = max(arr);
-        System.out.println((ans));
-        System.out.println(Integer.MIN_VALUE);
-    }
+//        int[][] arr = {
+//                {23, 4, 1},
+//                {18, 12, 3, 9},
+//                {78, 99, 34, 56},
+//                {18, 12}
+//        };
+//        int ans = max(arr);
+//        System.out.println((ans));
+//        System.out.println(Integer.MIN_VALUE);
+//    }
+//
+//    static int max(int[][] arr) {
+//        int max = Integer.MIN_VALUE;
+//        for (int row = 0; row < arr.length; row++) {
+//            for (int col = 0; col < arr[row].length; col++) {
+//                int element = arr[row][col];
+//                if (element > max) {
+//                    max = element;
+//                }
+//            }
+//        }
+//        return max;
+//    }
+
+        // find count of no's that have even number of digits:
+
+//        int[] nums = {12, 345, 2, 6, 7896};
+//        System.out.println(findNumbers(nums));
+//    }
+//
+//    static int findNumbers(int[] nums) {
+//        int count = 0;
+//        for (int num : nums) {
+//            if (even(num)) {
+//                count++;
+//            }
+//        }
+//        return count;
+//    }
+//
+//    // function to check whether a number contains even digit or not
+//    static boolean even(int num) {
+//        int numberOfDigits = digits(num);
+//        return numberOfDigits % 2 == 0;
+//    }
+//
+//    // count number of digits in a number
+//    static int digits(int num) {
+//        if (num < 0) {
+//            num = num * -1;
+//        }
+//        if (num == 0) {
+//            return 1;
+//        }
+//        int count = 0;
+//        while (num > 0) {
+//            count++;
+//            num = num / 10; // num/=10
+//        }
+//        return count;
+//    }
+
+        // Second Method: Optimised Solution
+
+//        int[] nums = {12, 345, 2, 6, 7896};
+//        System.out.println(findNumbers(nums));
+//    }
+//
+//    static int findNumbers(int[] nums) {
+//        int count = 0;
+//        for (int num : nums) {
+//            if (even(num)) {
+//                count++;
+//            }
+//        }
+//        return count;
+//    }
+//
+//    // function to check whether a number contains even digit or not
+//    static boolean even(int num) {
+//        int numberOfDigits = digits(num);
+//        return numberOfDigits % 2 == 0;
+//    }
+//    static int digits(int num) {
+//        if (num < 0) {
+//            num = num * -1;
+//        }
+//        return (int)(Math.log10(num)) + 1;
+//    }
+
+        // Maximum Wealth:
+
 
     static int max(int[][] arr) {
         int max = Integer.MIN_VALUE;
