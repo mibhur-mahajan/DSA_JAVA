@@ -242,6 +242,11 @@ public class Linear_Search {
             for(int account = 0; account < accounts[person].length; account++) {
                 sum += accounts[person][account];
             }
+            // now we have sum of accounts of person
+            // check with overall ans
+            if(sum > ans) {
+                ans = sum;
+            }
         }
         return max;
     }
