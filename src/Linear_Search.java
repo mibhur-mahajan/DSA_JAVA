@@ -232,14 +232,15 @@ public class Linear_Search {
         // Maximum Wealth:
 
 
-    static int max(int[][] arr) {
-        int max = Integer.MIN_VALUE;
-        for (int row = 0; row < arr.length; row++) {
-            for (int col = 0; col < arr[row].length; col++) {
-                int element = arr[row][col];
-                if (element > max) {
-                    max = element;
-                }
+    }
+    public int maximumWealth(int[][] accounts) {
+        // person = row
+        // account = col
+        int ans = Integer.MIN_VALUE;
+        for(int person = 0; person < accounts.length; person++) {
+            int sum = 0;
+            for(int account = 0; account < accounts[person].length; account++) {
+                sum += accounts[person][account];
             }
         }
         return max;
