@@ -248,6 +248,6 @@ public class Linear_Search {
                 ans = sum;
             }
         }
-        return max;
+        return ans;
     }
 }
