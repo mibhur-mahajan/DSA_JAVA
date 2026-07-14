@@ -78,7 +78,14 @@ public class Binary_Search_Interview_Question {
             int start = 0;
             int end = 1;
             // condition for the target to lie in the range
-            
+            while (target > arr[end]) {
+                int newStart = end + 1;
+                // double the box value
+                // end = previous end + sizeofbox * 2
+                end = end + (end - start +1) * 2;
+                start = newStart;
+            }
+            return infinite_position(arr, target, start, end);
         }
         static int infinite_position(int[] arr, int target, int start, int end)  {
             while(start <= end) {
