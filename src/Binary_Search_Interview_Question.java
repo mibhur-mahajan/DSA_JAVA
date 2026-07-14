@@ -66,7 +66,7 @@ public class Binary_Search_Interview_Question {
         // Leetcode 744 :
         // Leetcode 34 :
 
-    // Ques: Find position of an element in a sorted array of infinite numbers:
+        // Ques: Find position of an element in a sorted array of infinite numbers:
 
 
         static int findingRange(int[] arr, int target) {
