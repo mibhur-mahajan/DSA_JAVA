@@ -68,8 +68,11 @@ public class Binary_Search_Interview_Question {
 
         // Ques: Find position of an element in a sorted array of infinite numbers:
 
-
-        static int findingRange(int[] arr, int target) {
+        int[] arr = {3, 5, 7, 9, 10, 90, 100, 130, 140, 160, 170};
+        int target = 10;
+        System.out.println(ans(arr, target));
+        }
+        static int ans(int[] arr, int target) {
             // first find the range
             // first start with a box of size 2
             int start = 0;
