@@ -93,7 +93,7 @@ public class Arrays_ArrayList {
 //        };
 
 //          int[][] arr = new int[3][2];
-////          System.out.println(arr.length); // no of rows
+//         System.out.println(arr.length); // no of rows
 //        // input:
 //        Scanner in = new Scanner(System.in);
 //        for (int row = 0; row < arr.length; row++) {
