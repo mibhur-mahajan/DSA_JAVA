@@ -16,7 +16,7 @@ public class Linear_Search {
 //        }
 //        // run for loop
 //        for(int index = 0; index < arr.length; index++) {
-//            // check for element at every index if it = targer
+//            // check for element at every index if it = target
 //            int element = arr[index];
 //            if (element == target) {
 //                return index;
