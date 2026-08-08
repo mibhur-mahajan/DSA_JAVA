@@ -31,4 +31,8 @@ public class Cyclic_Sort {
     // Ques: Leetcode 287
 
     // Ques: Leetcode 442
+
+    // Ques: Leetcode 645
+
+    // Ques: Leetcode 41
 }
