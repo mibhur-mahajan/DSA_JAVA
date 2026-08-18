@@ -1,5 +1,4 @@
-import java.util.Arrays;
-import java.util.Scanner;
+package OOPS_1;
 
 public class OOPS_1 {
     public static void main(String[] args) {
